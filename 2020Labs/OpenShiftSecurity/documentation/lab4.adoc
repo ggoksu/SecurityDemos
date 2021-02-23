@@ -159,6 +159,8 @@ At this point in the pipeline, the image has passed all tests and can be marked 
 ==== Trigger Application Pipeline
 Now that a new, vetted base image has been created, the pipeline can trigger the application pipeline. The application pipeline will use this golden image as the base image for building the application. Note that the application pipeline reruns the same compliance/vulnerability tests to verify no potential security issues were introduced in the process of creating the application image.
 
+
+
 The following sections describe each of the stages in the application CI/CD pipeline that we will be running during this lab.
 
 ==== Checkout
