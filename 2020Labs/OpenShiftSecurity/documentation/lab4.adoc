@@ -114,7 +114,7 @@ image:images/lab7.2-jenkins.png[]
 no login necessary
 +
 image:images/lab7.2-nexus.png[]
-* Sonarqube - http://sonarqube-ocp-workshop.apps.{GUID}.example.opentlc.com
+* Sonarqube - https://sonarqube-ocp-workshop.apps.{GUID}.example.opentlc.com
 +
 no login necessary
 +
