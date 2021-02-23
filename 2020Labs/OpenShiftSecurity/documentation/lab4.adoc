@@ -358,7 +358,7 @@ image:images/lab7.4-openscap-vulnerabilities.png[]
 +
 image:images/lab7.4-owasp-zap.png[]
 +
-. Navigate to the SonarQube url http://sonarqube-ocp-workshop.apps.{GUID}.example.opentlc.com Click on the number link above *Projects Analyzed* section:
+. Navigate to the SonarQube url https://sonarqube-ocp-workshop.apps.{GUID}.example.opentlc.com Click on the number link above *Projects Analyzed* section:
 +
 image:images/lab7.4-sonarqube-projects.png[]
 +
