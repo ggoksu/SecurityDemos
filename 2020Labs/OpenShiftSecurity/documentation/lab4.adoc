@@ -79,7 +79,7 @@ image:images/lab7-ecommerce-webapp.png[]
 
 . Log into each of the tools that we previously mentioned  with the credentials shown below. Replace *{GUID}* with your provided lab cluster GUID and replace *{USERID}* with your provided user id - e.g., *user1* . Both the lab cluster GUID and USERID can be found on the Lab Information page where you got your assigned GUID and USERID. (see previous step for more details)
 
-* Red Hat OpenShift console - https://master.{GUID}.example.opentlc.com
+* Red Hat OpenShift console - https://console-openshift-console.apps.{GUID}.example.opentlc.com
 +
 *login:* {USERID}
 +
