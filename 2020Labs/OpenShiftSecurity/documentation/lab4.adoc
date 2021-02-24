@@ -142,7 +142,7 @@ This stage uses OpenShift to create an image from the inputs retrieved from the 
 This stage uses skopeo to push the newly built candidate image into the Red Hat Quay image repository.
 
 ==== OpenSCAP Scans
-During this stage we run the Maven SonarQube plugin to send the code, unit test results and code coverage metrics to our sonarqube server for static code analysis.
+This will perform two OpenSCAP scans. A vulnerability scan and a Defense Information Systems Agency (DISA) Security Technical Implementation Guideline (STIG) compliance scan. Both reports will be collected by Jenkins and made available for viewing.
 
 ==== Compliance Gate
 This gate will explicitly examine the OpenSCAP compliance scan results and verify that at least 80% of the STIG compliance requirements have passed.
