@@ -99,7 +99,7 @@ image:images/lab7.2-gogs.png[]
 +
 **login:** {USERID}
 +
-**password:** r3dh4t1!
+**password:** openshift
 +
 When prompted, press the *Allow selected permissions* button.
 +
