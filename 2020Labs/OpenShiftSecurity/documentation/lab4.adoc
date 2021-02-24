@@ -79,7 +79,7 @@ image:images/lab7-ecommerce-webapp.png[]
 
 . Log into each of the tools that we previously mentioned  with the credentials shown below. Replace *{GUID}* with your provided lab cluster GUID and replace *{USERID}* with your provided user id - e.g., *user1* . Both the lab cluster GUID and USERID can be found on the Lab Information page where you got your assigned GUID and USERID. (see previous step for more details)
 
-* Red Hat OpenShift console - https://console-openshift-console.apps.{GUID}.example.opentlc.com
+* Red Hat OpenShift console - https://console-openshift-console.apps.cluster-{GUID}.{GUID}.example.opentlc.com
 +
 *login:* {USERID}
 +
@@ -87,14 +87,14 @@ image:images/lab7-ecommerce-webapp.png[]
 +
 image:images/lab7.2-openshift.png[]
 +
-* Gogs - http://gogs-ocp-workshop.apps.{GUID}.example.opentlc.com
+* Gogs - http://gogs-ocp-workshop.apps.cluster-{GUID}.{GUID}.example.opentlc.com
 +
 *login:* {USERID}
 +
 *password:* openshift
 +
 image:images/lab7.2-gogs.png[]
-* Jenkins - https://jenkins-{USERID}.apps.{GUID}.example.opentlc.com
+* Jenkins - https://jenkins-{USERID}.apps.cluster-{GUID}.{GUID}.example.opentlc.com
 (Click on Log In with OpenShift)
 +
 **login:** {USERID}
@@ -109,18 +109,18 @@ The main Jenkins page will appear as below:
 +
 image:images/lab7.2-jenkins.png[]
 
-* Nexus - http://nexus-ocp-workshop.apps.{GUID}.example.opentlc.com
+* Nexus - http://nexus-ocp-workshop.apps.cluster-{GUID}.{GUID}.example.opentlc.com
 +
 no login necessary
 +
 image:images/lab7.2-nexus.png[]
-* Sonarqube - https://sonarqube-ocp-workshop.apps.{GUID}.example.opentlc.com
+* Sonarqube - https://sonarqube-ocp-workshop.apps.cluster-{GUID}.{GUID}.example.opentlc.com
 +
 no login necessary
 +
 image:images/lab7.2-sonarqube.png[]
 
-* Quay - http://quayecosystem-quay-quay-enterprise.apps.{GUID}.example.opentlc.com
+* Quay - http://quayecosystem-quay-quay-enterprise.apps.cluster-{GUID}.{GUID}.example.opentlc.com
 +
 **login:** admin
 +
